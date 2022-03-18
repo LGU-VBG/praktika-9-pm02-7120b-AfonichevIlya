@@ -44,23 +44,29 @@
 }
 .menu:hover .menu-content {
   display: block;
-  box-shadow: 0px 0px 5px 3px rgba(117, 109, 109, 0.75);
+  box-shadow: 0px 0px 5px 3px rgba(115, 115, 115, 0.75);
 }
 .menu:hover .file {
+  position: relative;
   color: black;
   text-decoration: none;
   padding: 4px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: white;
-  box-shadow: 0px -1px 5px 2px rgba(117, 109, 109, 0.75);
+  box-shadow: 3px -3px 3px 0px rgba(133, 133, 133, 0.75),
+    -3px -3px 3px 0px rgba(133, 133, 133, 0.75);
+  z-index: 10;
 }
 .menu:hover .edit {
+  position: relative;
   color: black;
   text-decoration: none;
   padding: 4px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: white;
-  box-shadow: 0px -1px 5px 2px rgba(117, 109, 109, 0.75);
+  box-shadow: 3px -3px 3px 0px rgba(133, 133, 133, 0.75),
+    -3px -3px 3px 0px rgba(133, 133, 133, 0.75);
+  z-index: 10;
 }
