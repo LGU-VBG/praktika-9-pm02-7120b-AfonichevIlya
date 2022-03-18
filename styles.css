@@ -1,0 +1,72 @@
+.content {
+  display: flex;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.file {
+  color: blue;
+  text-decoration: underline;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  margin-right: 30px;
+}
+.edit {
+  color: blue;
+  text-decoration: underline;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  margin-right: 30px;
+}
+.menu {
+  position: relative;
+  display: inline-block;
+}
+.menu-content {
+  display: none;
+  position: absolute;
+  min-width: 125px;
+}
+.menu-content a {
+  color: blue;
+  background-color: white;
+  padding: 6px;
+  text-decoration: none;
+  display: block;
+}
+.menu-content a:hover {
+  background-color: rgb(0, 110, 255);
+  color: white;
+}
+.menu:hover .menu-content {
+  display: block;
+  box-shadow: 0px 0px 5px 3px rgba(115, 115, 115, 0.75);
+}
+.menu:hover .file {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  padding: 4px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  box-shadow: 3px -3px 3px 0px rgba(133, 133, 133, 0.75),
+    -3px -3px 3px 0px rgba(133, 133, 133, 0.75);
+  z-index: 10;
+}
+.menu:hover .edit {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  padding: 4px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  box-shadow: 3px -3px 3px 0px rgba(133, 133, 133, 0.75),
+    -3px -3px 3px 0px rgba(133, 133, 133, 0.75);
+  z-index: 10;
+}
